@@ -1,6 +1,6 @@
 # Ultimate Data Structures Algorithms Mosh Hamedani
 ## All course projects written in diffrent languages!
-The projects are written in these codes below:
+The projects are written in these programing languages below:
 * C++
 * Python
 
