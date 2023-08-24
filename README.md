@@ -1,8 +1,9 @@
 # Ultimate Data Structures Algorithms Mosh Hamedani
 ## All course projects written in diffrent languages!
-The ptojects are written in these codes below:\n
-*C++\n
-*Python\n
+The projects are written in these programing languages below:
+* C++
+* Python
+
 You can conturbuit and add for other languages too!
 
-[Google](#google.com)
+[Projects Course](https://codewithmosh.com/p/data-structures-algorithms)
