@@ -103,3 +103,17 @@ class linkedlist:
         self.__last = self.__first
         self.__last.nextNode = None
         self.__first = previous
+
+    def getKthFromEnd(self, k):
+        if k > self.size:
+            return "out of index"
+        pointer1 = self.__first
+        pointer2 = self.__first
+        for _ in range(k):
+            pointer2 = pointer2.nextNode
+
+        while pointer2 is not None:
+            pointer2 = pointer2.nextNode
+            pointer1 = pointer1.nextNode
+
+        return pointer1.value
