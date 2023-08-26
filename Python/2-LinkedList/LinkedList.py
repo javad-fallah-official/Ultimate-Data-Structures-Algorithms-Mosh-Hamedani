@@ -48,6 +48,10 @@ class linkedlist:
             return True
         
     def removeLast(self):
+        if self.__is_empty():
+            return None
+        if self.__first == self.__last:
+            return None
         previous = self.getPrevious(self.__last)
         self.__last = previous
         self.__last.nextNode = None
