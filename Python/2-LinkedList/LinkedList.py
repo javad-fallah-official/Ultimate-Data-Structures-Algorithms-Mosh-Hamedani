@@ -79,3 +79,11 @@ class linkedlist:
     
     def size (self):
         return self.__size
+    
+    def Array (self):
+        result = []
+        current = self.__first
+        while current != None:
+            result.append(current.value)
+            current = current.nextNode
+        return result
