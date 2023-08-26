@@ -41,3 +41,8 @@ class linkedlist:
             index += 1
         return -1
     
+    def contains(self, item):
+        if self.IndexOf(item) == -1:
+            return False
+        else:
+            return True
