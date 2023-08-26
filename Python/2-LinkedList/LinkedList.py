@@ -105,7 +105,7 @@ class linkedlist:
         self.__first = previous
 
     def getKthFromEnd(self, k):
-        if k > self.size:
+        if k > self.size():
             return "out of index"
         pointer1 = self.__first
         pointer2 = self.__first
