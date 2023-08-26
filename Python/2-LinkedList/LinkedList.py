@@ -31,3 +31,13 @@ class linkedlist:
         second = self.__first.nextNode
         self.__first = None
         self.__first = second
+        
+    def IndexOf(self, item):
+        index = 0
+        current = self.__first
+        while current is not None:
+            if current.value == item: return index
+            current = current.nextNode
+            index += 1
+        return -1
+    
