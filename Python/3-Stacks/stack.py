@@ -1,4 +1,4 @@
-#with this madul is just regular stack to use in python
+#this madul is just regular stack to use in python
 
 class Node:
 	def __init__(self, value):
